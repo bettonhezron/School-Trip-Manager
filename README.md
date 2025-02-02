@@ -28,15 +28,12 @@ This project is a simple web-based application for managing school trips. It all
 2. Open the project with VS Code:
 After cloning, open the project directory (School-Trip-Manager) in VS Code.
 You can make any changes as needed. Ensure your project structure is correct, and add any additional code if necessary.
-3. Install Tomcat:
-If you don't have Tomcat installed, follow these steps:
+3. Install Tomcat if you don't have Tomcat installed.
 
-Download Apache Tomcat from the official site: Download Apache Tomcat.
 Follow the instructions for your operating system to set up Tomcat.
 4. Deploy the Project to Tomcat:
 Navigate to your Tomcat installation directory. Inside the webapps folder, create a new folder named schooltripmanager.
 Copy the entire project folder (the contents of School-Trip-Manager) into the schooltripmanager folder inside webapps. The folder structure should look like this:
-
 
 webapps/
   schooltripmanager/
@@ -49,15 +46,9 @@ webapps/
       trips.txt
       
 The data directory is used to store the trip data in the trips.txt file.
-5. Start Tomcat:
-After deploying the project, you need to start Tomcat.
-6. Access the Application:
-Open your web browser and go to:
-
-http://localhost:8080/schooltripmanager/
-This will open the homepage of your School Trip Manager application.
-7. Interact with the Application:
-Add a New Trip:
+5. Start Tomcat: After deploying the project, you need to start Tomcat.
+6. Access the Application:  Open your web browser and go to:  http://localhost:8080/schooltripmanager/ This will open the homepage of your School Trip Manager application.
+7. Interact with the Application:Add a New Trip:
 Navigate to http://localhost:8080/schooltripmanager/tripForm.jsp to fill in and submit a new trip.
 View All Trips:
 Navigate to http://localhost:8080/schooltripmanager/viewTrips.jsp to see the list of all trips saved in the trips.txt file.
