@@ -24,4 +24,4 @@ This project is a simple web-based application for managing school trips. It all
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/yourusername/yourrepositoryname.git](https://github.com/bettonhezron/School-Trip-Manager.git)
+   git clone https://github.com/bettonhezron/School-Trip-Manager.git
