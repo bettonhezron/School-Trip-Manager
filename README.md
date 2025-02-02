@@ -26,6 +26,6 @@ This project is a simple web-based application for managing school trips. It all
    ```bash
    git clone https://github.com/bettonhezron/School-Trip-Manager.git
 2. After cloning, open the project directory (School-Trip-Manager) in VS Code.You can make any changes as needed. Ensure your project structure is correct, and add any additional code if necessary.
-3. Install Tomcat if you don't have Tomcat installed.
+3. Install Tomcat if you don't have have it installed.
 4. Deploy the Project to Tomcat.
 5.  Access the Application:  Open your web browser and go to:  http://localhost:8080/schooltripmanager/ 
