@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="" method="post">
+        <section class="header">
+            <h3>📅 Departmental Trip Booking Form</h3>
+            <p>Welcome to the Departmental Trip Booking Form! This form is designed for Chairpersons of Departments (CODs) to request and organize academic trips for their students. Please ensure that all details are accurately filled out, including the number of students, trip destination, and purpose of the trip. Once submitted, your request will be reviewed, and you will receive confirmation via email. If you need assistance, please contact the administration.</p>
+        </section>
+        <section class="basic-information">
+            <label for="faculty">Choose your faculty</label>
+            <select name="faculty" id="faculty">
+                <option value="agriculture">Faculty of Agriculture</option>
+                <option value="arts-social-sciences">Faculty of Arts and Social Sciences</option>
+                <option value="commerce">Faculty of Commerce</option>
+                <option value="education">Faculty of Education and Community Development Studies</option>
+                <option value="engineering">Faculty of Engineering and Technology</option>
+                <option value="environmental-and-resource-developement">Faculty of Environment and Resources Development</option>
+                <option value="health-sciences">Faculty of Health Sciences</option>
+                <option value="law">Faculty of Law</option>
+                <option value="science">Faculty of Science</option>
+                <option value="veterinary">Faculty of Veterinary Medicine and Surgery</option>
+                <option value="distance-learning">School of Distance Learning (SoDL)</option>
+                <option value="women-gender-and-developement">Institute of Women Gender and Development</option>
+            </select>
+            <label for="course-name">Enter the course name</label>
+            <input type="text" name="course-name" id="coures-name">
+            <label for="student-count">How many students are registered for the trip?</label>
+            <input type="number" name="student-count" id="student-count">
+            <label for="reason">What is the reason for the trip</label>
+            <textarea name="reason" id="reason" placeholder="Reason for the trip"></textarea>
+        </section>
+        <section class="trip-details">
+            <label for="destination">Enter the trip destination.</label>
+            <input type="text" name="destination" id="destination">
+            <label for="date">Enter the desired travel date</label>
+            <input type="date">
+            <label for="duration">What will be the trip duration (in days)</label>
+            <select name="duration" id="duration">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+            </select>
+        </section>
+        <section class="additional-information">
+            <label for="accomodation-required">Do you require accomodation?</label>
+            <select name="accomodation-required" id="accomodation-required">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+            <label for="special-requirements">State special requirments if any</label>
+            <textarea name="special-requirements" id="special-requirements" placeholder="Special requirements e.g., medical conditions, accessibility needs, extra requirements"></textarea>
+        </section>
+        <div class="buttons">
+            <button type="submit">Submit</button>
+            <button>Clear form</button>
+        </div>
+    </form>
+</body>
+</html>
